@@ -1,0 +1,21 @@
+﻿{
+    "version": "1.0.0-*",
+    "description": "LawnMowers.Domain Class Library",
+    "authors": [ "Jakub" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": { },
+
+    "frameworks": {
+        "dnx451": { },
+        "dnxcore50": {
+            "dependencies": {
+                "System.Runtime": "4.0.21-*",
+                "System.Linq": "4.0.1-*",
+                "Microsoft.CSharp": "4.0.1-beta-*"
+            }
+        }
+    }
+}
