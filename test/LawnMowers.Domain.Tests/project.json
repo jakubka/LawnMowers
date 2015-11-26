@@ -1,0 +1,28 @@
+﻿{
+    "version": "1.0.0-*",
+    "description": "LawnMowers.Domain.Tests Class Library",
+    "authors": [ "Jakub" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "frameworks": {
+        "dnx451": { },
+        "dnxcore50": {
+            "dependencies": {
+                "Microsoft.CSharp": "4.0.1-beta-*",
+                "System.Runtime": "4.0.21-*",
+                "System.Linq": "4.0.1-*"
+			}
+        }
+    },
+    "dependencies": {
+        "LawnMowers.Domain": "1.0.0",
+        "xunit": "2.1.0",
+        "xunit.runner.dnx": "2.1.0-rc1-build204",
+        "FluentAssertions": "4.0.1"
+    },
+    "commands": {
+        "test": "xunit.runner.dnx"
+    }
+}
