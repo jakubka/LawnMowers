@@ -1,0 +1,30 @@
+{
+    "version": "1.0.0-*",
+    "description": "LawnMowers.Console Console Application",
+    "authors": [ "Jakub" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": {
+        "LawnMowers.Domain": "1.0.0-*"
+    },
+
+    "commands": {
+        "LawnMowers.Console": "LawnMowers.Console"
+    },
+
+    "frameworks": {
+        "dnx451": { },
+        "dnxcore50": {
+            "dependencies": {
+                "Microsoft.CSharp": "4.0.1-beta-*",
+                "System.Runtime": "4.0.21-*",
+                "System.Runtime.Extensions": "4.0.11-*",
+                "System.Console": "4.0.0-*",
+                "System.Linq": "4.0.1-*",
+                "System.Text.RegularExpressions": "4.0.11-*"
+            }
+        }
+    }
+}
